@@ -1,0 +1,59 @@
+body
+{
+margin: 0;
+padding: 0;
+background: #243;
+}
+
+.container
+{
+	max-width: 740px;
+	max-height: 750px;
+	background: #aaa;
+	display: flex;
+   flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.element
+{
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	
+	margin: 20px;
+}
+
+.element img
+{
+	max-height: 200px; 
+	max-width: 200px;
+	filter: brightness(80%);
+}
+
+.element img:hover
+{
+	filter: brightness(100%);
+}
+
+.brightened
+{
+	filter: brightness(150%);
+}
+
+button
+{
+	height: 20px;
+	background: transparent;
+	border: none;
+	font-size: 2em;
+	padding-right: 30px;
+	margin: 20px;
+	margin-bottom: 50px;
+	color: white;
+	font-family: verdana;
+}
+button:hover, button:active
+{
+	cursor: pointer;
+}
